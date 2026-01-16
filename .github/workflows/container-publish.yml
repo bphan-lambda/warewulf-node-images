@@ -115,6 +115,10 @@ jobs:
             version: "24.03"
             context: openeuler-24.03
             file: openeuler-24.03/Containerfile
+          - os: ubuntu
+            version: "24.04"
+            context: ubuntu
+            file: Containerfile-24.04
 
     permissions:
       contents: read
